@@ -1,0 +1,2 @@
+service redis-server start
+mwoffliner --mwUrl=https://en.wikipedia.org/ --adminEmail darkenvy@protonmail.com --articleList /files/wiki_list.lst --cacheDirectory /files/cache --outputDirectory /files/out --filenamePrefix wikishrink --verbose
